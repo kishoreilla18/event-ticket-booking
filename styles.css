@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('https://themepack.me/i/c/749x467/media/g/1072/solid-color-theme-ya17.jpg'); /* Path to your background image */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px; 
+    color: rgb(0, 0, 0); 
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.event1 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transition: transform 0.3s;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2210653739/display_1500/stock-vector-diwali-celebration-background-decorated-with-lit-oil-lamps-diya-lighting-garland-sky-balloons-2210653739.jpg'); /* Path to your background image */
+    background-size: cover; /* Adjusts the background image to cover the entire .event element */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    padding: 20px; /* Add padding to make content readable */
+    color: white; /* Set text color to white for better readability */
+}
+.event2 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transition: transform 0.3s;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSte8W0euU6ubQPe0jSctJraieeQxII_bQ6Y1tsRDVh2w&s'); /* Path to your background image */
+    background-size: cover; /* Adjusts the background image to cover the entire .event element */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    padding: 20px; /* Add padding to make content readable */
+    color: white; /* Set text color to white for better readability */
+}
+
+.event3 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transition: transform 0.3s;
+    background-image: url('https://media.istockphoto.com/id/1324006497/photo/music-controller-dj-mixer-in-a-nightclub-at-a-party.jpg?s=612x612&w=0&k=20&c=AyXSZEWy3lHb7hKUfh9FXAsZGAO_p838uVaAlFbWa9k='); /* Path to your background image */
+    background-size: cover; /* Adjusts the background image to cover the entire .event element */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    padding: 20px; /* Add padding to make content readable */
+    color: white; /* Set text color to white for better readability */
+}
+
+
+
+
+.event:hover {
+    transform: translateY(-10px);
+}
+
+.event h3 {
+    color: #000000; /* Orange red */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000; /* Lime green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #228b22; /* Forest green */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #0e1212; /* Orange red */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="ph number"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="ph number"]:focus,
+form input[type="number"]:focus {
+    border-color: #020202; /* Orange red */
+}
+
+#confirmation {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    background-color: #20becf; /* Orange red */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
